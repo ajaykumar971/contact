@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>contact form</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="contactForm" method="post" action="contact.php">
+            <input type="text" name="name" class="form-control" placeholder="your name here" required><br>
+            <input type="email" name="email" class="form-control" placeholder="your Email id here" required><br>
+            <textarea name="message" cols="5" class="form-control" rows="4" placeholder="message here" required>
+
+            </textarea><br>
+            <button type="submit" class="form-control btn" value="SEND MESSAGE">SEND</button>
+        </form>
+    </div>
+</body>
+
+</html>
